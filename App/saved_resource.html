@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)about:srcdoc -->
+<html lang="en" class="scroll-smooth"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="{{project.meta.ogDescription}}">
+      <meta name="theme-color" content="#ffffff">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="robots" content="{{project.meta.robotsMeta}}">
+      
+       <title>{{project.seoTitle}}</title>
+      <!-- SEO Description -->
+      <meta name="description" content="{{project.seoDescription}}">
+      <!-- Performance optimization: Preload critical resources -->
+      <link rel="preload" href="https://cdn.tailwindcss.com/" as="script">
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" as="style">
+      
+      <!-- {headerScripts} -->
+
+      <!-- Core CSS -->
+      <script src="https://cdn.tailwindcss.com/"></script>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+             colors: {
+                primary: {
+                  50: '#f8f8f8',
+                  100: '#e8e8e8',
+                  200: '#d3d3d3',
+                  300: '#a3a3a3',
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+                secondary: {
+                  50: '#f8f8f8',
+                  100: '#e8e8e8',
+                  200: '#d3d3d3',
+                  300: '#a3a3a3',
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+                accent: {
+                  50: '#f8f8f8',
+                  100: '#e8e8e8',
+                  200: '#d3d3d3',
+                  300: '#a3a3a3',
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+              },
+              fontFamily: {
+                sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                heading: ['Montserrat', 'Inter', 'system-ui', 'sans-serif'],
+              },
+              spacing: {
+                '18': '4.5rem',
+                '22': '5.5rem',
+                '30': '7.5rem',
+              },
+              maxWidth: {
+                '8xl': '88rem',
+                '9xl': '96rem',
+              },
+              animation: {
+                'fade-in': 'fadeIn 0.5s ease-in',
+                'fade-out': 'fadeOut 0.5s ease-out',
+                'slide-up': 'slideUp 0.5s ease-out',
+                'slide-down': 'slideDown 0.5s ease-out',
+                'slide-left': 'slideLeft 0.5s ease-out',
+                'slide-right': 'slideRight 0.5s ease-out',
+                'scale-in': 'scaleIn 0.5s ease-out',
+                'scale-out': 'scaleOut 0.5s ease-out',
+                'spin-slow': 'spin 3s linear infinite',
+                'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                'bounce-slow': 'bounce 3s infinite',
+                'float': 'float 3s ease-in-out infinite',
+              },
+              keyframes: {
+                fadeIn: {
+                  '0%': { opacity: '0' },
+                  '100%': { opacity: '1' },
+                },
+                fadeOut: {
+                  '0%': { opacity: '1' },
+                  '100%': { opacity: '0' },
+                },
+                slideUp: {
+                  '0%': { transform: 'translateY(20px)', opacity: '0' },
+                  '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                slideDown: {
+                  '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                  '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                slideLeft: {
+                  '0%': { transform: 'translateX(20px)', opacity: '0' },
+                  '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                slideRight: {
+                  '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                  '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                scaleIn: {
+                  '0%': { transform: 'scale(0.9)', opacity: '0' },
+                  '100%': { transform: 'scale(1)', opacity: '1' },
+                },
+                scaleOut: {
+                  '0%': { transform: 'scale(1.1)', opacity: '0' },
+                  '100%': { transform: 'scale(1)', opacity: '1' },
+                },
+                float: {
+                  '0%, 100%': { transform: 'translateY(0)' },
+                  '50%': { transform: 'translateY(-10px)' },
+                },
+              },
+              aspectRatio: {
+                'portrait': '3/4',
+                'landscape': '4/3',
+                'ultrawide': '21/9',
+              },
+            },
+          },
+          variants: {
+            extend: {
+              opacity: ['disabled'],
+              cursor: ['disabled'],
+              backgroundColor: ['active', 'disabled'],
+              textColor: ['active', 'disabled'],
+            },
+          },
+        }
+      </script>
+
+      <!-- Utilities and Components -->
+      <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+      <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+      
+      <!-- Optimized Font Loading -->
+      <link rel="preconnect" href="https://fonts.googleapis.com/">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+      
+      <!-- Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+      <!-- Dynamic Meta Tags -->
+      <meta name="description" content="{{project.meta.ogDescription}}">
+      <meta name="keywords" content="{{project.meta.keywords}}">
+      <meta name="robots" content="{{project.meta.robotsMeta}}">
+      <meta name="google-site-verification" content="{{project.meta.googleVerification}}">
+      <meta name="baidu-verification" content="{{project.meta.baiduVerification}}">
+      <meta name="yandex-verification" content="{{project.meta.yandexVerification}}">
+      <meta name="bing-verification" content="{{project.meta.bingVerification}}">
+      <meta property="og:title" content="{{project.meta.ogTitle}}">
+      <meta property="og:description" content="{{project.meta.ogDescription}}">
+      <meta property="og:image" content="{{project.meta.ogImage}}">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:site_name" content="{{project.name}}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{{project.meta.ogTitle}}">
+      <meta name="twitter:description" content="{{project.meta.ogDescription}}">
+      <meta name="twitter:image" content="{{project.meta.ogImage}}">
+
+      <!-- Base Styles -->
+      <style>
+      * {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Webkit browsers like Chrome, Safari, newer Edge */
+*::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+          width: 0px;
+        }
+        
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+          background: #888;
+          border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+          background: #666;
+        }
+
+        /* Remove tap highlight on mobile */
+        * {
+          -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Improve text rendering */
+        body {
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Focus outline styles */
+        :focus-visible {
+          outline: 2px solid currentColor;
+          outline-offset: 2px;
+        }
+
+        /* Print styles */
+        @media print {
+          .no-print {
+            display: none !important;
+          }
+          
+          a[href]:after {
+            content: " (" attr(href) ")";
+          }
+        }
+      </style>
+
+      <!-- Enhanced Image Handler -->
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                const img = entry.target;
+                if (img.dataset.src) {
+                  const tempImage = new Image();
+                  tempImage.onload = () => {
+                    img.src = img.dataset.src;
+                    img.classList.remove('opacity-0');
+                    img.classList.add('opacity-100');
+                  };
+                  tempImage.src = img.dataset.src;
+                  img.removeAttribute('data-src');
+                  observer.unobserve(img);
+                }
+              }
+            });
+          }, {
+            rootMargin: '50px 0px',
+            threshold: 0.01
+          });
+
+          const loadImage = (img) => {
+            if ('loading' in HTMLImageElement.prototype) {
+              img.loading = 'lazy';
+            }
+            
+            img.classList.add('transition-opacity', 'duration-300', 'opacity-0');
+            
+            img.onerror = () => {
+              const width = img.getAttribute('width') || img.clientWidth || 300;
+              const height = img.getAttribute('height') || img.clientHeight || 200;
+              img.src = `https://placehold.co/${width}x${height}/DEDEDE/555555?text=Image+Unavailable`;
+              img.alt = 'Image unavailable';
+              img.classList.remove('opacity-0');
+              img.classList.add('opacity-100', 'error-image');
+            };
+
+            if (img.dataset.src) {
+              imageObserver.observe(img);
+            } else {
+              img.classList.remove('opacity-0');
+              img.classList.add('opacity-100');
+            }
+          };
+
+          document.querySelectorAll('img[data-src], img:not([data-src])').forEach(loadImage);
+
+          // Watch for dynamically added images
+          new MutationObserver((mutations) => {
+            mutations.forEach(mutation => {
+              mutation.addedNodes.forEach(node => {
+                if (node.nodeType === 1) {
+                  if (node.tagName === 'IMG') {
+                    loadImage(node);
+                  }
+                  node.querySelectorAll('img').forEach(loadImage);
+                }
+              });
+            });
+          }).observe(document.body, {
+            childList: true,
+            subtree: true
+          });
+        });
+
+        // Performance monitoring
+        if ('performance' in window && 'PerformanceObserver' in window) {
+          // Create performance observer
+          const observer = new PerformanceObserver((list) => {
+            const entries = list.getEntries();
+            entries.forEach((entry) => {
+              if (entry.entryType === 'largest-contentful-paint') {
+                // console.log(`LCP: ${entry.startTime}ms`);
+              }
+              if (entry.entryType === 'first-input') {
+                // console.log(`FID: ${entry.processingStart - entry.startTime}ms`);
+              }
+              if (entry.entryType === 'layout-shift') {
+                // console.log(`CLS: ${entry.value}`);
+              }
+            });
+          });
+
+          // Observe performance metrics
+          observer.observe({ entryTypes: ['largest-contentful-paint', 'first-input', 'layout-shift'] });
+
+          // Log basic performance metrics
+          window.addEventListener('load', () => {
+            const timing = performance.getEntriesByType('navigation')[0];
+            console.log({
+              'DNS Lookup': timing.domainLookupEnd - timing.domainLookupStart,
+              'TCP Connection': timing.connectEnd - timing.connectStart,
+              'DOM Content Loaded': timing.domContentLoadedEventEnd - timing.navigationStart,
+              'Page Load': timing.loadEventEnd - timing.navigationStart
+            });
+          });
+        }
+
+        // Handle offline/online status
+        window.addEventListener('online', () => {
+          document.body.classList.remove('offline');
+          console.log('Connection restored');
+        });
+        
+        window.addEventListener('offline', () => {
+          document.body.classList.add('offline');
+          console.log('Connection lost');
+        });
+      </script>
+   <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.z-50{z-index:50}.m-4{margin:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mr-2{margin-right:0.5rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-8{height:2rem}.h-full{height:100%}.h-screen{height:100vh}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-20{width:5rem}.w-24{width:6rem}.w-3\/4{width:75%}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-full{width:100%}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.appearance-none{-webkit-appearance:none;appearance:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.scroll-smooth{scroll-behavior:smooth}.whitespace-nowrap{white-space:nowrap}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-4{border-width:4px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.border-t-transparent{border-top-color:transparent}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-50{--tw-bg-opacity:1;background-color:rgb(240 253 244 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-orange-100{--tw-bg-opacity:1;background-color:rgb(255 237 213 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.bg-opacity-50{--tw-bg-opacity:0.5}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-green-50{--tw-gradient-from:#f0fdf4 var(--tw-gradient-from-position);--tw-gradient-to:rgb(240 253 244 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-green-100{--tw-gradient-to:#dcfce7 var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-20{padding-bottom:5rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pt-12{padding-top:3rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.align-middle{vertical-align:middle}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-green-100{--tw-text-opacity:1;color:rgb(220 252 231 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-green-800{--tw-text-opacity:1;color:rgb(22 101 52 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-red-800{--tw-text-opacity:1;color:rgb(153 27 27 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-100{opacity:1}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.focus\:not-sr-only:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal}.focus\:absolute:focus{position:absolute}.focus\:left-0:focus{left:0px}.focus\:top-0:focus{top:0px}.focus\:z-50:focus{z-index:50}.focus\:bg-white:focus{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.focus\:p-4:focus{padding:1rem}.focus\:text-black:focus{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}}</style><script src="https://rollout.site/js/rollout-dom-selector.js" id="dom-selector-script"></script><style>
+        @keyframes ripple {
+          0% {
+            transform: translate(-50%, -50%) scale(0);
+            opacity: 0.4;
+          }
+          100% {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 0;
+          }
+        }
+
+        @keyframes hoverGradientMove {
+          0% {
+            background-position: 100% 0%;
+          }
+          50% {
+            background-position: 0% 100%;
+          }
+          100% {
+            background-position: 100% 0%;
+          }
+        }
+
+        .selection-overlay::before,
+        .selection-overlay::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 200%;
+          padding-bottom: 200%;
+          transform: translate(-50%, -50%) scale(0);
+          border-radius: 50%;
+          background: rgba(221, 255, 0, 0.15);
+          animation: ripple 4s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+          z-index: -1;
+        }
+
+        .selection-overlay::after {
+          animation-delay: -2s;
+        }
+
+        .section-highlight::after,
+        .component-highlight::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(
+            -45deg,
+            rgba(0, 255, 255, 0.1) 0%,
+            rgba(0, 150, 255, 0.15) 50%,
+            rgba(0, 255, 255, 0.1) 100%
+          );
+          background-size: 200% 200%;
+          border: 2px dashed rgba(0, 200, 255, 0.6);
+          pointer-events: none;
+          z-index: 1000;
+          opacity: 0;
+          transition: opacity 0.2s;
+          animation: hoverGradientMove 2s ease infinite;
+        }
+
+        .highlight-active {
+          opacity: 1 !important;
+          transform: scale(1) !important;
+          border: 2px solid rgba(221, 255, 0, 0.85) !important;
+          box-shadow: 0 0 2px rgba(221, 255, 0, 0.3) !important;
+          background: linear-gradient(
+            45deg,
+            rgba(221, 255, 0, 0.12) 0%,
+            rgba(221, 255, 0, 0.15) 100%
+          ) !important;
+          overflow: hidden !important;
+          position: relative !important;
+        }
+
+        .highlight-active::before,
+        .highlight-active::after {
+          content: '' !important;
+          position: absolute !important;
+          top: 50% !important;
+          left: 50% !important;
+          width: 200% !important;
+          padding-bottom: 200% !important;
+          transform: translate(-50%, -50%) scale(0) !important;
+          border-radius: 50% !important;
+          background: rgba(221, 255, 0, 0.15) !important;
+          animation: ripple 4s cubic-bezier(0, 0.5, 0.5, 1) infinite !important;
+          z-index: -1 !important;
+        }
+
+        .highlight-active::after {
+          animation-delay: -2s !important;
+        }
+      </style></head>
+   <body class="antialiased text-gray-800 min-h-screen flex flex-col" id="el-o6m1o1zv">
+      <!-- Skip to main content link for accessibility -->
+      <a href="https://rollout.site/projects/agrismart-mobile-a0ko9/edit#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black" id="el-6po5x24f">
+         Skip to main content
+      </a>
+
+      <!-- Header -->
+      <header class="relative z-50 bg-white dark:bg-gray-900" id="el-0ca5uw7y">
+        <!-- Header content goes here -->
+      </header>
+
+      <!-- Main content area -->
+      <main id="main-content" class="flex-1 relative ">
+        
+        
+              <div id="23697488-c22a-4d0e-b157-6b5f802321ae" data-section_id="23697488-c22a-4d0e-b157-6b5f802321ae" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-5soefmlt">
+<div id="root" x-data="{ 
+  activeScreen: &#39;home&#39;,
+  showBottomNav: true,
+  lastScrollPosition: 0,
+  modalOpen: false
+}" x-init="initializeApp()">
+
+  <!-- Main App Container -->
+  <div class="h-screen flex flex-col bg-gray-50" id="el-jfn57pck">
+    
+    <!-- Header -->
+    <header class="screen-header bg-white/80 border-b border-gray-200" id="el-k4avd7x6">
+      <div class="px-4 py-3 flex items-center justify-between safe-area-container" id="el-o4zi5p16">
+        <h1 class="text-lg font-semibold text-green-800" id="el-z6x62hjs">AgriSmart</h1>
+        <button class="p-2 rounded-full hover:bg-gray-100" id="el-88tz67o3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-lqm5ubey">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" id="el-9o1kbnbs"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 overflow-hidden" id="el-u9ar2db5">
+      <div class="app-scroll-container h-full" @scroll.debounce.50ms="handleScroll" id="el-54m6sw7y">
+        
+        <!-- Screen sections will be loaded here -->
+        <div id="layout" class="screen-section" x-show="activeScreen === &#39;layout&#39;" style="display: none;">
+          <!-- Layout screen content -->
+        </div>
+
+        <div id="home" class="screen-section" x-show="activeScreen === &#39;home&#39;">
+          <!-- Home screen content -->
+        </div>
+
+        <div id="scanner" class="screen-section" x-show="activeScreen === &#39;scanner&#39;" style="display: none;">
+          <!-- Scanner screen content -->
+        </div>
+
+        <div id="iot_dashboard" class="screen-section" x-show="activeScreen === &#39;iot_dashboard&#39;" style="display: none;">
+          <!-- IoT Dashboard screen content -->
+        </div>
+
+        <div id="voice_assistant" class="screen-section" x-show="activeScreen === &#39;voice_assistant&#39;" style="display: none;">
+          <!-- Voice Assistant screen content -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav bg-white/80 border-t border-gray-200" x-show="showBottomNav" id="el-rvqqn2hd">
+      <div class="flex justify-around items-center py-2 px-4 safe-area-container" id="el-1q95zhfc">
+        <button @click="activeScreen = &#39;home&#39;" class="p-2 text-green-600" :class="{&#39;text-green-600&#39;: activeScreen === &#39;home&#39;}" id="el-98wabax2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-j1t5fcag">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" id="el-e7auidj8"></path>
+          </svg>
+        </button>
+
+        <button @click="activeScreen = &#39;scanner&#39;" class="p-2" :class="{&#39;text-green-600&#39;: activeScreen === &#39;scanner&#39;}" id="el-k0ozcele">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-dhjqoj6y">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" id="el-4umzgpz8"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" id="el-ll4bpsyh"></path>
+          </svg>
+        </button>
+
+        <button @click="activeScreen = &#39;iot_dashboard&#39;" class="p-2" :class="{&#39;text-green-600&#39;: activeScreen === &#39;iot_dashboard&#39;}" id="el-a8z2j2to">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-38yo4frt">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" id="el-b81blrls"></path>
+          </svg>
+        </button>
+
+        <button @click="activeScreen = &#39;voice_assistant&#39;" class="p-2" :class="{&#39;text-green-600&#39;: activeScreen === &#39;voice_assistant&#39;}" id="el-zdodwbqz">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1dl6tzsu">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" id="el-gfg6fyse"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="b87f5485-0be3-4a9a-9c4f-bfcc9df1275c" data-section_id="b87f5485-0be3-4a9a-9c4f-bfcc9df1275c" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-5som3rnd">
+<div id="home" class="screen-section min-h-screen bg-gradient-to-b from-green-50 to-green-100">
+  <!-- Hero Section -->
+  <div class="px-4 py-8 space-y-6" id="el-v5x11ei2">
+    <div class="text-center space-y-4" id="el-jvmajb0c">
+      <h1 class="text-3xl font-bold text-green-800" id="el-lvmqv20o">AgriSmart</h1>
+      <p class="text-green-600" id="el-8kj783jy">Empowering Farmers with Technology</p>
+    </div>
+
+    <!-- Quick Actions Grid -->
+    <div class="grid grid-cols-2 gap-4" id="el-hutmehj7">
+      <div class="bg-white p-4 rounded-xl shadow-sm" id="el-h152hoza">
+        <div class="flex flex-col items-center space-y-2" id="el-augyf5ku">
+          <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center" id="el-ahlz29d9">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-uwk5tzdp">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" id="el-hguxen3d"></path>
+            </svg>
+          </div>
+          <span class="text-sm font-medium" id="el-5vh4txnu">Scan Plant</span>
+        </div>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow-sm" id="el-321ji3se">
+        <div class="flex flex-col items-center space-y-2" id="el-gmvdg19o">
+          <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center" id="el-t697iugm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-afs5vqh2">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" id="el-j250y9pr"></path>
+            </svg>
+          </div>
+          <span class="text-sm font-medium" id="el-6a3uvsj3">Voice Assistant</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Weather Card -->
+    <div class="bg-white rounded-xl p-4 shadow-sm" id="el-0n27o4ui">
+      <div class="flex items-center justify-between" id="el-f8mkuasd">
+        <div id="el-a9d3j902">
+          <h3 class="text-lg font-semibold text-gray-800" id="el-zazht71r">Today's Weather</h3>
+          <p class="text-sm text-gray-600" id="el-axo41bu5">Sunny, 28°C</p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-hrx7ckus">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" id="el-7u32xoq0"></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Sensor Data -->
+    <div class="space-y-4" id="el-qso62wmw">
+      <h3 class="text-lg font-semibold text-gray-800" id="el-p666tnug">Farm Sensors</h3>
+      <div class="grid grid-cols-2 gap-4" id="el-vnamix6w">
+        <div class="bg-white p-4 rounded-xl shadow-sm" id="el-1d23dos2">
+          <div class="flex flex-col space-y-2" id="el-a5m5yfba">
+            <span class="text-sm text-gray-600" id="el-aathfyrk">Soil Moisture</span>
+            <div class="flex items-center space-x-2" id="el-ut9keyo8">
+              <span class="text-xl font-semibold text-blue-600" id="el-yua4p51g">75%</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-428gskro">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-jsusa58o"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-xl shadow-sm" id="el-odz27gmd">
+          <div class="flex flex-col space-y-2" id="el-n4arweg4">
+            <span class="text-sm text-gray-600" id="el-jdt7pm6r">Temperature</span>
+            <div class="flex items-center space-x-2" id="el-cb3wssr2">
+              <span class="text-xl font-semibold text-red-600" id="el-wbsb6pf6">28°C</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ykxgek5i">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" id="el-t90w6phj"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="space-y-4" id="el-3nmo21k4">
+      <h3 class="text-lg font-semibold text-gray-800" id="el-6rxzdicn">Recent Activity</h3>
+      <div class="bg-white rounded-xl shadow-sm divide-y" id="el-jf56a7b3">
+        <div class="p-4 flex items-center space-x-3" id="el-6c42k2jq">
+          <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center" id="el-57unhma6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1iand8ox">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-grmzfae9"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-n0yow5r5">
+            <p class="text-sm font-medium" id="el-2i1irrtj">Plant scan completed</p>
+            <p class="text-xs text-gray-500" id="el-h5a7gk2i">2 hours ago</p>
+          </div>
+        </div>
+
+        <div class="p-4 flex items-center space-x-3" id="el-vpt94l6j">
+          <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center" id="el-vhgcuwcm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-zelg9mkz">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" id="el-am9lnnw4"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-3jkiszic">
+            <p class="text-sm font-medium" id="el-lffzeefr">Irrigation alert</p>
+            <p class="text-xs text-gray-500" id="el-vp5iqbx1">5 hours ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="e8314837-d921-4bc7-904d-be67f8bb824f" data-section_id="e8314837-d921-4bc7-904d-be67f8bb824f" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-smcu8ogc">
+<div id="scanner" class="screen-section bg-gray-50" x-data="{ showResults: false, processingImage: false }">
+  <!-- Scanner Header -->
+  <div class="px-4 pt-6 pb-4 space-y-2" id="el-sjold9u0">
+    <h2 class="text-2xl font-bold text-gray-800" id="el-v3yunszn">Plant Scanner</h2>
+    <p class="text-sm text-gray-600" id="el-rkdzyv2l">Scan your plants to detect diseases and get treatment recommendations</p>
+  </div>
+
+  <!-- Camera/Upload Section -->
+  <div class="px-4 py-6" id="el-r8adhfnq">
+    <div class="bg-white rounded-xl shadow-sm p-6 space-y-6" id="el-q9fyxiza">
+      <div class="aspect-w-4 aspect-h-3 bg-gray-100 rounded-lg overflow-hidden" id="el-1fj1lyi3">
+        <div class="flex flex-col items-center justify-center space-y-4" id="el-4toczdkt">
+          <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center" id="el-t1y59tx7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-9hp80dxd">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" id="el-0bby2r3n"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" id="el-6ji4j270"></path>
+            </svg>
+          </div>
+          <p class="text-sm text-gray-500" id="el-1yy9qmjx">Take a clear photo of the plant</p>
+        </div>
+      </div>
+
+      <div class="flex space-x-4" id="el-mnmy53m7">
+        <button class="flex-1 bg-green-600 text-white py-3 rounded-lg font-medium flex items-center justify-center space-x-2" id="el-r2tqm93z">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-7qk3fzjo">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" id="el-5x381vmq"></path>
+          </svg>
+          <span id="el-aq083l8k">Take Photo</span>
+        </button>
+        <button class="flex-1 border border-gray-300 py-3 rounded-lg font-medium flex items-center justify-center space-x-2" id="el-ck9r5adb">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-0ywbtre7">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" id="el-58ovwta5"></path>
+          </svg>
+          <span class="text-gray-600" id="el-uot1bli1">Upload</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Section (Initially Hidden) -->
+  <div class="px-4 py-6" x-show="showResults" id="el-fahr6qbs" style="display: none;">
+    <div class="bg-white rounded-xl shadow-sm p-6 space-y-6" id="el-55pcqca0">
+      <div class="flex items-center justify-between" id="el-20yjffto">
+        <h3 class="text-lg font-semibold" id="el-isgvr13p">Scan Results</h3>
+        <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full" id="el-g8bhwry3">98% Match</span>
+      </div>
+
+      <div class="space-y-4" id="el-5vii5ex9">
+        <div class="flex items-start space-x-4" id="el-s3vlevgd">
+          <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-p7r1rbjn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-6z2fna78">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" id="el-ecvr4bcd"></path>
+            </svg>
+          </div>
+          <div id="el-gzpf6o3k">
+            <h4 class="font-medium" id="el-k9vuszdu">Leaf Blight Detected</h4>
+            <p class="text-sm text-gray-600 mt-1" id="el-e4j8nd62">Common fungal disease affecting crop leaves</p>
+          </div>
+        </div>
+
+        <div class="space-y-2" id="el-1elcjum2">
+          <h4 class="font-medium" id="el-d0a5jf6p">Recommended Treatment</h4>
+          <ul class="space-y-2" id="el-iv5ewcha">
+            <li class="flex items-center space-x-3 text-sm text-gray-600" id="el-dxzwq8p6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-eu9dgbjw">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-12z3dpjz"></path>
+              </svg>
+              <span id="el-nluilr2y">Apply copper-based fungicide</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm text-gray-600" id="el-tesqd3gh">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-866v34mw">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-h6z0helf"></path>
+              </svg>
+              <span id="el-valsijk0">Remove infected leaves</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm text-gray-600" id="el-c7py53dd">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-yku9ptr1">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-cm12gp4a"></path>
+              </svg>
+              <span id="el-46xw69sf">Improve air circulation</span>
+            </li>
+          </ul>
+        </div>
+
+        <button class="w-full bg-green-600 text-white py-3 rounded-lg font-medium" id="el-z4yb5z2u">
+          View Detailed Report
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Processing Overlay -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" x-show="processingImage" id="el-au3jy7qs" style="display: none;">
+    <div class="bg-white rounded-xl p-6 space-y-4" id="el-3n0zgme8">
+      <div class="animate-spin w-10 h-10 border-4 border-green-500 border-t-transparent rounded-full mx-auto" id="el-3opw9ejm"></div>
+      <p class="text-center font-medium" id="el-sopzijq6">Analyzing image...</p>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="08996d15-dcff-490e-9d6c-1efe2f56b9be" data-section_id="08996d15-dcff-490e-9d6c-1efe2f56b9be" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-tovc00l2">
+<div id="iot_dashboard" class="screen-section bg-gray-50">
+  <!-- Dashboard Header -->
+  <div class="px-4 pt-6 pb-4" id="el-narcsc3t">
+    <h2 class="text-2xl font-bold text-gray-800" id="el-z4ekxflo">IoT Dashboard</h2>
+    <p class="text-sm text-gray-600 mt-1" id="el-rkfm6r9m">Real-time farm monitoring and insights</p>
+  </div>
+
+  <!-- Main Dashboard Content -->
+  <div class="px-4 py-4 space-y-6" id="el-i7uj0oat">
+    <!-- Weather Card -->
+    <div class="bg-white rounded-xl p-4 shadow-sm" id="el-lcofypmi">
+      <div class="flex items-center justify-between mb-4" id="el-kfyb2h8r">
+        <h3 class="font-semibold" id="el-ufe8qtil">Current Weather</h3>
+        <span class="text-sm text-gray-500" id="el-37l718dp">Updated 5m ago</span>
+      </div>
+      <div class="flex items-center justify-between" id="el-m90ucaum">
+        <div class="flex items-center space-x-3" id="el-gkmpb5gg">
+          <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center" id="el-ep2vvgv1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-z2pmbifs">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" id="el-mkr62chb"></path>
+            </svg>
+          </div>
+          <div id="el-yxegi7l6">
+            <p class="text-2xl font-bold" id="el-4512w8xk">28°C</p>
+            <p class="text-sm text-gray-500" id="el-fa4nnawl">Sunny</p>
+          </div>
+        </div>
+        <div class="text-right" id="el-xqlg4s0o">
+          <p class="text-sm text-gray-600" id="el-5h0vq4ic">Humidity: 65%</p>
+          <p class="text-sm text-gray-600" id="el-wz94o4dw">Wind: 12 km/h</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soil Sensors Grid -->
+    <div class="grid grid-cols-2 gap-4" id="el-jusraji3">
+      <!-- Moisture -->
+      <div class="bg-white rounded-xl p-4 shadow-sm" id="el-vk805k9s">
+        <div class="flex flex-col space-y-2" id="el-kfizxsj1">
+          <div class="flex items-center justify-between" id="el-lwif68wb">
+            <span class="text-sm text-gray-600" id="el-vcaz8ot6">Soil Moisture</span>
+            <span class="text-xs text-green-600 font-medium" id="el-x27dhq35">Optimal</span>
+          </div>
+          <div class="flex items-center space-x-2" id="el-edx4bnlp">
+            <span class="text-2xl font-bold text-blue-600" id="el-quxu8qwd">75%</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-91km0njr">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" id="el-v2fs2wv0"></path>
+            </svg>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2" id="el-v0uusibt">
+            <div class="bg-blue-600 h-2 rounded-full" style="width: 75%" id="el-325y8ycd"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pH Level -->
+      <div class="bg-white rounded-xl p-4 shadow-sm" id="el-g86er2cn">
+        <div class="flex flex-col space-y-2" id="el-66smrb58">
+          <div class="flex items-center justify-between" id="el-wipezxj6">
+            <span class="text-sm text-gray-600" id="el-ewi3cj9f">Soil pH</span>
+            <span class="text-xs text-yellow-600 font-medium" id="el-7nj0w49p">Monitor</span>
+          </div>
+          <div class="flex items-center space-x-2" id="el-5ngti9fi">
+            <span class="text-2xl font-bold text-purple-600" id="el-4cy5tfu6">6.5</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-czju4708">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" id="el-icffinm9"></path>
+            </svg>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2" id="el-voye7ski">
+            <div class="bg-purple-600 h-2 rounded-full" style="width: 65%" id="el-l81ntioy"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Irrigation Status -->
+    <div class="bg-white rounded-xl p-4 shadow-sm" id="el-xp4rzm68">
+      <h3 class="font-semibold mb-4" id="el-s9lxlti6">Irrigation System</h3>
+      <div class="flex items-center justify-between" id="el-7bc6jkpx">
+        <div class="flex items-center space-x-3" id="el-zl3l0pfd">
+          <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center" id="el-9bxvka4n">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1usiyzdj">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" id="el-ui1ccmj1"></path>
+            </svg>
+          </div>
+          <div id="el-ww04c6hw">
+            <p class="font-medium" id="el-8m8eab2l">Active</p>
+            <p class="text-sm text-gray-500" id="el-9evhuz7r">Next schedule: 6:00 AM</p>
+          </div>
+        </div>
+        <button class="px-4 py-2 bg-green-600 text-white rounded-lg text-sm font-medium" id="el-k1y3vntc">
+          Configure
+        </button>
+      </div>
+    </div>
+
+    <!-- Alerts Section -->
+    <div class="space-y-4" id="el-du5owojr">
+      <h3 class="font-semibold" id="el-8klfn865">Recent Alerts</h3>
+      <div class="bg-white rounded-xl divide-y" id="el-zvwur248">
+        <div class="p-4 flex items-center space-x-3" id="el-q4e0w0rb">
+          <div class="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center" id="el-wwey8act">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-q17540me">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" id="el-mralko67"></path>
+            </svg>
+          </div>
+          <div id="el-7vs68ljb">
+            <p class="text-sm font-medium" id="el-3ed35w9y">Low moisture detected in Zone 2</p>
+            <p class="text-xs text-gray-500" id="el-ub3l31tj">2 hours ago</p>
+          </div>
+        </div>
+
+        <div class="p-4 flex items-center space-x-3" id="el-35a75qt7">
+          <div class="w-8 h-8 bg-yellow-100 rounded-full flex items-center justify-center" id="el-6en5q0fz">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-qewfgiqk">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" id="el-2zetwr3q"></path>
+            </svg>
+          </div>
+          <div id="el-y4iofl5k">
+            <p class="text-sm font-medium" id="el-88q8icdp">System maintenance required</p>
+            <p class="text-xs text-gray-500" id="el-k9v6c1rf">1 day ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="986ce990-e3ba-4efb-a4c2-26393bfcabb3" data-section_id="986ce990-e3ba-4efb-a4c2-26393bfcabb3" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-myw6pa3z">
+<div id="voice_assistant" class="screen-section bg-gray-50" x-data="{ isListening: false, showResponse: false }">
+  <!-- Voice Assistant Header -->
+  <div class="px-4 pt-6 pb-4" id="el-7dgctso2">
+    <h2 class="text-2xl font-bold text-gray-800" id="el-yrvv6w4j">AgroVision Assistant</h2>
+    <p class="text-sm text-gray-600 mt-1" id="el-0nqan5rn">Ask questions in your preferred language</p>
+  </div>
+
+  <!-- Main Assistant Interface -->
+  <div class="px-4 py-4 space-y-6" id="el-7cgy527o">
+    <!-- Language Selector -->
+    <div class="bg-white rounded-xl p-4 shadow-sm" id="el-tu0oi3dp">
+      <div class="flex items-center justify-between" id="el-bug5hqsi">
+        <span class="text-sm font-medium text-gray-600" id="el-dnjd9r1i">Select Language</span>
+        <select class="bg-gray-50 border border-gray-200 rounded-lg px-3 py-2 text-sm" id="el-ngqo3i0r">
+          <option value="en" id="el-zrqf5u9j">English</option>
+          <option value="hi" id="el-my85bcem">हिंदी</option>
+          <option value="ta" id="el-c7ewb9c8">தமிழ்</option>
+          <option value="te" id="el-elqeskym">తెలుగు</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Voice Input Section -->
+    <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col items-center justify-center space-y-4" id="el-jql7fp6v">
+      <div class="w-24 h-24 rounded-full bg-green-50 flex items-center justify-center relative" :class="{ &#39;animate-pulse&#39;: isListening }" id="el-cw8g4eym">
+        <button @click="isListening = !isListening" class="w-20 h-20 rounded-full bg-green-600 flex items-center justify-center focus:outline-none" id="el-mj8wbebu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-3uhilsmf">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" id="el-ftbqcwko"></path>
+          </svg>
+        </button>
+      </div>
+      <p class="text-sm text-gray-600" x-text="isListening ? &#39;Listening...&#39; : &#39;Tap to speak&#39;" id="el-jw39wrzr">Tap to speak</p>
+    </div>
+
+    <!-- Recent Queries -->
+    <div class="space-y-4" id="el-5hqsm9z0">
+      <h3 class="font-semibold" id="el-h8e4t448">Recent Conversations</h3>
+      <div class="bg-white rounded-xl divide-y shadow-sm" id="el-zlk0eu34">
+        <div class="p-4 space-y-2" id="el-up2uzz8h">
+          <div class="flex items-start space-x-3" id="el-k45y9iwm">
+            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center" id="el-rb4kzehr">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-tp0nx5yy">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" id="el-qfyilsrx"></path>
+              </svg>
+            </div>
+            <div class="flex-1" id="el-bskgunmm">
+              <p class="text-sm" id="el-h4h3fp5d">When should I water my crops today?</p>
+              <p class="text-xs text-green-600 mt-1" id="el-pcb1o28j">Based on soil moisture readings, watering is recommended at 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-4 space-y-2" id="el-gmguce1c">
+          <div class="flex items-start space-x-3" id="el-tumctkl3">
+            <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center" id="el-aekcwalj">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-0lxcyyjl">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" id="el-8s1onxw8"></path>
+              </svg>
+            </div>
+            <div class="flex-1" id="el-yocqpprd">
+              <p class="text-sm" id="el-ghvyun3x">What's the weather forecast for tomorrow?</p>
+              <p class="text-xs text-green-600 mt-1" id="el-a6jyk8mu">Tomorrow will be sunny with a high of 30°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Suggestions -->
+    <div class="space-y-3" id="el-2ygc1d1e">
+      <h3 class="font-semibold" id="el-qjy4pnrr">Try Asking</h3>
+      <div class="flex flex-wrap gap-2" id="el-etoefxku">
+        <button class="px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm" id="el-842mprux">Weather forecast</button>
+        <button class="px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm" id="el-i22ds73l">Soil moisture levels</button>
+        <button class="px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm" id="el-juekb1f4">Pest control tips</button>
+        <button class="px-4 py-2 bg-green-50 text-green-700 rounded-full text-sm" id="el-6d5w77kq">Irrigation schedule</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voice Response Overlay -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" x-show="showResponse" id="el-syc2p3bi" style="display: none;">
+    <div class="bg-white rounded-xl p-6 m-4 space-y-4 max-w-sm w-full" id="el-34esi8ue">
+      <div class="animate-pulse flex justify-center" id="el-7z85mhv8">
+        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center" id="el-qok3e1nc">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-g913cj5l">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" id="el-3sures88"></path>
+          </svg>
+        </div>
+      </div>
+      <p class="text-center" id="el-v4xqg46x">Processing your question...</p>
+      <button @click="showResponse = false" class="w-full bg-gray-100 py-2 rounded-lg text-gray-600" id="el-qkkbj6zw">Cancel</button>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="b67ae034-c67e-4141-8399-48d886aeed7f" data-section_id="b67ae034-c67e-4141-8399-48d886aeed7f" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-13r3sd2m">
+<div id="settings" class="screen-section bg-gray-50">
+  <!-- Settings Header -->
+  <div class="px-4 pt-6 pb-4" id="el-8cl0vet9">
+    <h2 class="text-2xl font-bold text-gray-800" id="el-1dla4p1p">Settings</h2>
+    <p class="text-sm text-gray-600 mt-1" id="el-9bm1nueh">Manage your app preferences</p>
+  </div>
+
+  <!-- Settings Groups -->
+  <div class="px-4 py-4 space-y-6" id="el-dk35op1d">
+    <!-- Account Settings -->
+    <div class="bg-white rounded-xl shadow-sm" id="el-uqmszpi6">
+      <div class="p-4 border-b" id="el-fj25rcy0">
+        <div class="flex items-center space-x-3" id="el-xovts0y2">
+          <div class="w-12 h-12 rounded-full overflow-hidden" id="el-p0nl5fi4">
+            <img src="https://avatar.iran.liara.run/public" alt="Profile" class="w-full h-full object-cover transition-opacity duration-300 opacity-100" loading="lazy" id="el-9jznudrg">
+          </div>
+          <div id="el-igo7nqgq">
+            <h3 class="font-medium" id="el-it3ueel9">John Farmer</h3>
+            <p class="text-sm text-gray-500" id="el-ruwxjfhf">Premium Account</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="divide-y" id="el-r3ihmzax">
+        <button class="w-full p-4 flex items-center justify-between" id="el-v1p0xqvu">
+          <span class="text-gray-700" id="el-oz14h40j">Edit Profile</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-1z1m4j5n">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-f8lfv2nx"></path>
+          </svg>
+        </button>
+        <button class="w-full p-4 flex items-center justify-between" id="el-ry7ty16e">
+          <span class="text-gray-700" id="el-ym1s23j8">Subscription Plan</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-vwm4q61a">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-43shfs6b"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- App Settings -->
+    <div class="bg-white rounded-xl shadow-sm divide-y" id="el-mjq5zygl">
+      <div class="p-4 flex items-center justify-between" id="el-of2tsc5o">
+        <div class="flex items-center space-x-3" id="el-ahmx2349">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-uwjdvk9m">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" id="el-8hfg6ttf"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" id="el-sm7big97"></path>
+          </svg>
+          <span class="text-gray-700" id="el-hfswl3jx">Dark Mode</span>
+        </div>
+        <div class="relative inline-block w-12 mr-2 align-middle select-none" id="el-cvcb2cdy">
+          <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer">
+          <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer" id="el-32w14okz"></label>
+        </div>
+      </div>
+
+      <div class="p-4 flex items-center justify-between" id="el-ccf48opk">
+        <div class="flex items-center space-x-3" id="el-iwnch5rk">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-s80pd40z">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" id="el-fq55dfo5"></path>
+          </svg>
+          <span class="text-gray-700" id="el-5t1r3062">Notifications</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-lsnutqfg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-x5heg41d"></path>
+        </svg>
+      </div>
+
+      <div class="p-4 flex items-center justify-between" id="el-6ay5erte">
+        <div class="flex items-center space-x-3" id="el-hy6dh9q7">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ryoc04u0">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" id="el-5fkfe375"></path>
+          </svg>
+          <span class="text-gray-700" id="el-hd1br6st">Language</span>
+        </div>
+        <div class="flex items-center space-x-2" id="el-3m5w483d">
+          <span class="text-sm text-gray-500" id="el-27g8f5vi">English</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-f4cv00nh">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-nmhuch64"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data & Storage -->
+    <div class="bg-white rounded-xl shadow-sm divide-y" id="el-4k2i7job">
+      <div class="p-4" id="el-7wtq35lq">
+        <h3 class="font-medium text-gray-900" id="el-fytkbca9">Data &amp; Storage</h3>
+      </div>
+      <div class="p-4 flex items-center justify-between" id="el-77vmd84p">
+        <span class="text-gray-700" id="el-qzbu7srx">Clear Cache</span>
+        <span class="text-sm text-gray-500" id="el-x59u4e5y">1.2 GB</span>
+      </div>
+      <div class="p-4 flex items-center justify-between" id="el-1f486ywb">
+        <span class="text-gray-700" id="el-2c5czopq">Offline Data</span>
+        <span class="text-sm text-gray-500" id="el-viay1g1m">820 MB</span>
+      </div>
+    </div>
+
+    <!-- Help & Support -->
+    <div class="bg-white rounded-xl shadow-sm divide-y" id="el-j0oib6vl">
+      <button class="w-full p-4 flex items-center justify-between" id="el-05l5g3oa">
+        <span class="text-gray-700" id="el-jbrrfusp">Help Center</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-15l2oq27">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-1a7a1i0h"></path>
+        </svg>
+      </button>
+      <button class="w-full p-4 flex items-center justify-between" id="el-9tj30o9c">
+        <span class="text-gray-700" id="el-u8cfzi0k">Privacy Policy</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-n83as4c4">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" id="el-wqri5jip"></path>
+        </svg>
+      </button>
+      <button class="w-full p-4 flex items-center justify-between text-red-600" id="el-kvln08jf">
+        <span id="el-wxmtlbsq">Sign Out</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-v6pru06q">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" id="el-kr6z4f5r"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="c59a2795-8ee3-437f-b80d-3f54ff7b59dd" data-section_id="c59a2795-8ee3-437f-b80d-3f54ff7b59dd" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-8ibqgdtk">
+<div id="profile" class="screen-section bg-gray-50">
+  <!-- Profile Header -->
+  <div class="bg-green-600 px-4 pt-12 pb-6" id="el-yzzpu27q">
+    <div class="flex items-center space-x-4" id="el-9dtnb7uu">
+      <div class="w-20 h-20 rounded-full border-4 border-white overflow-hidden" id="el-qbiasu1u">
+        <img src="https://avatar.iran.liara.run/public" alt="Profile" class="w-full h-full object-cover transition-opacity duration-300 opacity-100" loading="lazy" id="el-uuh18jls">
+      </div>
+      <div class="text-white" id="el-2s0rw7il">
+        <h2 class="text-xl font-bold" id="el-az88melp">John Farmer</h2>
+        <p class="text-green-100" id="el-43kkk5vd">Premium Member</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Stats -->
+  <div class="bg-white px-4 py-4 flex justify-between" id="el-e51kbrk7">
+    <div class="text-center" id="el-zx01is9s">
+      <p class="text-2xl font-bold text-gray-800" id="el-56c9xgc9">156</p>
+      <p class="text-sm text-gray-500" id="el-pib1eg8i">Scans</p>
+    </div>
+    <div class="text-center" id="el-glw6509q">
+      <p class="text-2xl font-bold text-gray-800" id="el-y818c4r0">23</p>
+      <p class="text-sm text-gray-500" id="el-36xy4ptn">Fields</p>
+    </div>
+    <div class="text-center" id="el-ckp5gwtu">
+      <p class="text-2xl font-bold text-gray-800" id="el-7bfcjyna">892</p>
+      <p class="text-sm text-gray-500" id="el-o7amy5a6">Analytics</p>
+    </div>
+  </div>
+
+  <!-- Profile Content -->
+  <div class="px-4 py-6 space-y-6" id="el-e16q8qot">
+    <!-- Farm Details -->
+    <div class="bg-white rounded-xl shadow-sm p-4 space-y-4" id="el-fu2tndgr">
+      <h3 class="font-semibold text-gray-800" id="el-oj6nq2pz">Farm Details</h3>
+      <div class="space-y-3" id="el-rjcdwcl5">
+        <div class="flex justify-between items-center" id="el-cke4wzxr">
+          <span class="text-gray-600" id="el-v3f1qoc4">Farm Name</span>
+          <span class="text-gray-800" id="el-4kc2caqv">Green Valley Farm</span>
+        </div>
+        <div class="flex justify-between items-center" id="el-f2w6oiow">
+          <span class="text-gray-600" id="el-2fu7gtkx">Location</span>
+          <span class="text-gray-800" id="el-28kmv8wa">Karnataka, India</span>
+        </div>
+        <div class="flex justify-between items-center" id="el-0p40q65k">
+          <span class="text-gray-600" id="el-pbuo892s">Total Area</span>
+          <span class="text-gray-800" id="el-xnfqo0c0">25 acres</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="bg-white rounded-xl shadow-sm p-4 space-y-4" id="el-xvmuv77p">
+      <h3 class="font-semibold text-gray-800" id="el-7amyus4w">Recent Activity</h3>
+      <div class="space-y-4" id="el-3vqx8qg2">
+        <div class="flex items-start space-x-3" id="el-8paiyr0h">
+          <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-95sejjc1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-hxey83be">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-54wzx2tm"></path>
+            </svg>
+          </div>
+          <div id="el-bli734sk">
+            <p class="text-sm font-medium" id="el-ftmaflwf">Completed soil analysis</p>
+            <p class="text-xs text-gray-500" id="el-asyg19qb">2 hours ago</p>
+          </div>
+        </div>
+
+        <div class="flex items-start space-x-3" id="el-x2u08rix">
+          <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-enl1jpsa">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-itr8p9cc">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" id="el-req1k3w2"></path>
+            </svg>
+          </div>
+          <div id="el-i3pze9ht">
+            <p class="text-sm font-medium" id="el-t3qclxsn">Scanned wheat crop</p>
+            <p class="text-xs text-gray-500" id="el-r1kkt3gn">5 hours ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription -->
+    <div class="bg-white rounded-xl shadow-sm p-4" id="el-i59asqvo">
+      <div class="flex items-center justify-between" id="el-1lhrwc00">
+        <div class="space-y-1" id="el-m1kh76ug">
+          <h3 class="font-semibold text-gray-800" id="el-u14hrg5o">Premium Plan</h3>
+          <p class="text-sm text-gray-500" id="el-xblb7ggc">Valid until Dec 2024</p>
+        </div>
+        <button class="px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg" id="el-h548pj1e">
+          Manage
+        </button>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="grid grid-cols-2 gap-4" id="el-ea5cqey4">
+      <button class="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center space-y-2" id="el-0788e07y">
+        <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center" id="el-ptkur9xj">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-j1himtm5">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" id="el-d6is3uwt"></path>
+          </svg>
+        </div>
+        <span class="text-sm font-medium text-gray-700" id="el-v6g1ilaa">Add Field</span>
+      </button>
+
+      <button class="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center space-y-2" id="el-kynhww9w">
+        <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center" id="el-zhkr7lv1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-wd0nuovy">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" id="el-u0sx7aqx"></path>
+          </svg>
+        </div>
+        <span class="text-sm font-medium text-gray-700" id="el-kw7j98s9">Share Access</span>
+      </button>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="bc337a91-ad5b-4072-8594-7c65cf7dbdb1" data-section_id="bc337a91-ad5b-4072-8594-7c65cf7dbdb1" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-cm6aargn">
+<div id="notifications" class="screen-section bg-gray-50">
+  <!-- Notifications Header -->
+  <div class="px-4 pt-6 pb-4" id="el-matn6b2u">
+    <div class="flex items-center justify-between" id="el-cnl4o2cc">
+      <h2 class="text-2xl font-bold text-gray-800" id="el-ez49kvqm">Notifications</h2>
+      <button class="text-sm text-green-600 font-medium" id="el-j0cjh0gv">Mark all as read</button>
+    </div>
+  </div>
+
+  <!-- Notification Filters -->
+  <div class="px-4 pb-4" id="el-sr2f0gqy">
+    <div class="flex space-x-2 overflow-x-auto no-scrollbar" id="el-g5mjmhm8">
+      <button class="px-4 py-2 bg-green-600 text-white rounded-full text-sm whitespace-nowrap" id="el-644r3937">All</button>
+      <button class="px-4 py-2 bg-white text-gray-600 rounded-full text-sm whitespace-nowrap" id="el-swzkcv7j">Alerts</button>
+      <button class="px-4 py-2 bg-white text-gray-600 rounded-full text-sm whitespace-nowrap" id="el-nqwq3t2f">System</button>
+      <button class="px-4 py-2 bg-white text-gray-600 rounded-full text-sm whitespace-nowrap" id="el-63f0l7qd">Scanner</button>
+      <button class="px-4 py-2 bg-white text-gray-600 rounded-full text-sm whitespace-nowrap" id="el-zuqs0jea">IoT</button>
+    </div>
+  </div>
+
+  <!-- Today's Notifications -->
+  <div class="px-4 py-2" id="el-nzj7y914">
+    <h3 class="text-sm font-medium text-gray-500" id="el-w1vee2yh">Today</h3>
+    <div class="mt-2 space-y-4" id="el-uqp97nk8">
+      <!-- Urgent Alert -->
+      <div class="bg-red-50 p-4 rounded-xl" id="el-g0xqkyei">
+        <div class="flex items-start space-x-3" id="el-407249mp">
+          <div class="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-mntxomie">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-djfcggzl">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" id="el-b32t97xk"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-cnni4qw0">
+            <p class="text-sm font-medium text-red-800" id="el-ck90j01j">Low soil moisture detected in Field 2</p>
+            <p class="text-xs text-red-600 mt-1" id="el-ignxgjc8">2 hours ago</p>
+          </div>
+          <button class="text-gray-400" id="el-uo9o52qj">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-477eviv1">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-5rk76nc6"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Scanner Result -->
+      <div class="bg-white p-4 rounded-xl shadow-sm" id="el-f54t3zzf">
+        <div class="flex items-start space-x-3" id="el-sehcp6c2">
+          <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-urtkttph">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-26j10cqs">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" id="el-zph2kgr3"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-lomdd2s6">
+            <p class="text-sm font-medium text-gray-800" id="el-tc4lijic">Plant scan analysis complete</p>
+            <p class="text-xs text-gray-500 mt-1" id="el-umokxro1">4 hours ago</p>
+          </div>
+          <button class="text-gray-400" id="el-y38o379r">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-s4jc15l6">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-ec40otw3"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yesterday -->
+  <div class="px-4 py-2" id="el-4m221gu2">
+    <h3 class="text-sm font-medium text-gray-500" id="el-m6as2dps">Yesterday</h3>
+    <div class="mt-2 space-y-4" id="el-spo010x1">
+      <!-- System Update -->
+      <div class="bg-white p-4 rounded-xl shadow-sm" id="el-yky1i125">
+        <div class="flex items-start space-x-3" id="el-nwujn48h">
+          <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-mrtaxza9">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-34ezqucf">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" id="el-ps0silgy"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-ufaz4sca">
+            <p class="text-sm font-medium text-gray-800" id="el-nejdbhlv">System update available</p>
+            <p class="text-xs text-gray-500 mt-1" id="el-a4nk2g47">Yesterday, 15:30</p>
+          </div>
+          <button class="text-gray-400" id="el-5xp9bs07">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-e4g77y5r">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-xyi54906"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Weather Alert -->
+      <div class="bg-white p-4 rounded-xl shadow-sm" id="el-5t3teir5">
+        <div class="flex items-start space-x-3" id="el-gxflcmvm">
+          <div class="w-8 h-8 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0" id="el-u5cxltkr">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-8rj34rcb">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" id="el-gyrralh7"></path>
+            </svg>
+          </div>
+          <div class="flex-1" id="el-cz1nbc5i">
+            <p class="text-sm font-medium text-gray-800" id="el-zucgi7jn">Rain expected tomorrow</p>
+            <p class="text-xs text-gray-500 mt-1" id="el-igmnxn0m">Yesterday, 12:00</p>
+          </div>
+          <button class="text-gray-400" id="el-95tdy653">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-z1fb3v6h">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-aea6osws"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</htmlcode>
+              </div>
+            
+              <div id="06ceeb7a-b7cb-4932-939d-1dfb41941914" data-section_id="06ceeb7a-b7cb-4932-939d-1dfb41941914" class="page_sectionHighlight__ahPeD sectionCode">
+                <htmlcode id="el-kho6whaj">
+<div id="root">
+    <section id="offline_data" class="screen-section bg-gray-50 min-h-screen">
+        <header class="screen-header bg-white/80" id="el-hkv101rs">
+            <div class="px-4 py-3 flex items-center justify-between border-b" id="el-pnrmd8mn">
+                <h1 class="text-lg font-semibold" id="el-0bb6w2ab">Offline Data</h1>
+                <button class="p-2 rounded-full hover:bg-gray-100" id="el-jlp16mts">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-v6w5mprh">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m7-7H5" id="el-rdbxehk4"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="p-4 space-y-4 pb-20" id="el-fv3qvwlp">
+            <div class="bg-white rounded-xl p-4 shadow-sm" id="el-r03lu382">
+                <div class="flex items-center justify-between mb-4" id="el-5l993n1d">
+                    <div class="flex items-center space-x-3" id="el-8euqgml5">
+                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center" id="el-rbh8yb6r">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-onqxbb5r">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" id="el-dvh03s8o"></path>
+                            </svg>
+                        </div>
+                        <div id="el-7ynv7qu1">
+                            <h3 class="font-semibold" id="el-5fsohylj">Stored Data</h3>
+                            <p class="text-sm text-gray-500" id="el-s1u52si0">Last sync: 2 hours ago</p>
+                        </div>
+                    </div>
+                    <span class="text-sm text-gray-500" id="el-f5xpx2yf">450 MB</span>
+                </div>
+                <div class="h-2 bg-gray-100 rounded-full overflow-hidden" id="el-rfx05iht">
+                    <div class="w-3/4 h-full bg-green-500" id="el-drihv3au"></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4" id="el-4phh1loo">
+                <div class="bg-white p-4 rounded-xl shadow-sm" id="el-y8mcaozn">
+                    <div class="flex items-center space-x-2 mb-3" id="el-8dw42eez">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-ck45l0gp">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" id="el-et5xjufw"></path>
+                        </svg>
+                        <span class="font-medium" id="el-r7dhkglu">Disease Data</span>
+                    </div>
+                    <p class="text-2xl font-bold" id="el-q61c7swe">124</p>
+                    <p class="text-sm text-gray-500" id="el-ant89ltr">Plant diseases stored</p>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm" id="el-yklva4k0">
+                    <div class="flex items-center space-x-2 mb-3" id="el-b3szztzm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-z1ni1msz">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" id="el-hihajslt"></path>
+                        </svg>
+                        <span class="font-medium" id="el-jy27pwle">IoT Records</span>
+                    </div>
+                    <p class="text-2xl font-bold" id="el-3cczho47">1,893</p>
+                    <p class="text-sm text-gray-500" id="el-pic471nm">Sensor readings</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden" id="el-czzg2cv0">
+                <div class="p-4 border-b" id="el-516jzwrs">
+                    <h3 class="font-semibold" id="el-61ylnze2">Recent Downloads</h3>
+                </div>
+                <div class="divide-y" id="el-lcp05afn">
+                    <div class="p-4 flex items-center justify-between" id="el-9oc8rt2h">
+                        <div class="flex items-center space-x-3" id="el-4eg1yq46">
+                            <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center" id="el-9yizoxv5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-583xnu52">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" id="el-lb1fztxp"></path>
+                                </svg>
+                            </div>
+                            <div id="el-ngbfz9a6">
+                                <p class="font-medium" id="el-i1ciwpir">Disease Guide.pdf</p>
+                                <p class="text-sm text-gray-500" id="el-z5kowfxg">12 MB</p>
+                            </div>
+                        </div>
+                        <button class="text-blue-500" id="el-581ijeak">View</button>
+                    </div>
+
+                    <div class="p-4 flex items-center justify-between" id="el-vn3dakpt">
+                        <div class="flex items-center space-x-3" id="el-bdhkod1i">
+                            <div class="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center" id="el-nl82yb4w">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-tje40p61">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" id="el-xgt987cf"></path>
+                                </svg>
+                            </div>
+                            <div id="el-gkzpapsr">
+                                <p class="font-medium" id="el-cmnax7da">Sensor Data.csv</p>
+                                <p class="text-sm text-gray-500" id="el-aw0o3mjq">8 MB</p>
+                            </div>
+                        </div>
+                        <button class="text-blue-500" id="el-u8fjqrsj">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</htmlcode>
+              </div>
+            
+      
+      </main>
+
+      <!-- {bodyScripts} -->
+
+   
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><div class="selection-overlay" style="position: absolute; pointer-events: none; background: linear-gradient(45deg, rgba(221, 255, 0, 0.12) 0%, rgba(221, 255, 0, 0.15) 100%); border: 2px solid rgba(221, 255, 0, 0.85); box-shadow: rgba(221, 255, 0, 0.3) 0px 0px 2px; z-index: 9998; opacity: 0; transform: scale(0.98); transition: 0.15s cubic-bezier(0.2, 0, 0, 1); display: none; overflow: hidden;"></div><div class="hover-overlay" style="position: absolute; pointer-events: none; background: linear-gradient(-45deg, rgba(0, 255, 255, 0.1) 0%, rgba(0, 150, 255, 0.15) 50%, rgba(0, 255, 255, 0.1) 100%); border: 2px dashed rgba(0, 200, 255, 0.6); box-shadow: none; border-radius: 0px; top: 1048px; left: 32px; width: 366.4px; height: 48px; z-index: 9999; opacity: 1; transform: scale(1); transition: 0.15s cubic-bezier(0.2, 0, 0, 1); display: none; overflow: hidden;"></div><div id="el-dk05iydv" style="position: absolute; top: 1022px; left: 32px; background-color: rgba(70, 80, 0, 0.95); color: rgb(221, 255, 0); padding: 4px 12px; border-radius: 6px 6px 0px 0px; font-size: 13px; font-weight: 500; font-family: &quot;Clash Display&quot;, system-ui, -apple-system, sans-serif; pointer-events: none; z-index: 10000; display: none; white-space: nowrap; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px; transform-origin: left center; transition: 0.2s cubic-bezier(0.2, 0, 0, 1);">🎯 Flex Layout</div></body></html>
